@@ -61,5 +61,9 @@ Use Postman or Insomnia to test the registration endpoint.
 
 ## Screenshots
 
-Image -> ![register](https://github.com/amit15000/2100270100021/assets/135760038/4749d1f7-1394-428d-817f-e9b30ae8f6d7)
+Registration -> ![register](https://github.com/amit15000/2100270100021/assets/135760038/4749d1f7-1394-428d-817f-e9b30ae8f6d7)
+Unauthorised Access -> ![unauthorised_access](https://github.com/amit15000/2100270100021/assets/135760038/410d2faa-0088-4e28-93b5-d14f99236ee5)
+Authorised Access -> ![authorised_access](https://github.com/amit15000/2100270100021/assets/135760038/1e2183bc-684a-4318-b7fa-b6856741c37d)
+
+
 
