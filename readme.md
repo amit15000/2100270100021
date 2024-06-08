@@ -61,4 +61,5 @@ Use Postman or Insomnia to test the registration endpoint.
 
 ## Screenshots
 
-Include screenshots of the API client showing the request and response.
+Image -> ![register](https://github.com/amit15000/2100270100021/assets/135760038/4749d1f7-1394-428d-817f-e9b30ae8f6d7)
+
