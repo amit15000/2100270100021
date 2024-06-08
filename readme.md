@@ -20,33 +20,34 @@
 
 ## API Endpoint
 
-- **POST /api/register**
-    - **Description**: Registers a company with the test server.
+### Authorization
+
+- **POST /api/auth**
+    - **Description**: Obtains an authorization token for the company.
     - **Body Parameters**:
         - `companyName` (string): The name of the company.
+        - `clientID` (string): The client ID obtained from registration.
+        - `clientSecret` (string): The client secret obtained from registration.
         - `ownerName` (string): The name of the owner.
-        - `rollNo` (string): The roll number.
         - `ownerEmail` (string): The email of the owner.
+        - `rollNo` (string): The roll number.
 
     - **Example Request Body**:
-        ```json
-        {
-            "companyName": "goMart",
-            "ownerName": "Rahul",
-            "rollNo": "12345",
-            "ownerEmail": "xyz@example.edu"
-        }
-        ```
-
-    - **Example Response**:
         ```json
         {
             "companyName": "goMart",
             "clientID": "37bb493c-73d3-47ca-5675-21f66ef0b735",
             "clientSecret": "HVIQBVbqnTGEMAED",
             "ownerName": "Rahul",
-            "ownerEmail": "xyz@example.edu",
+            "ownerEmail": "rahul@example.edu",
             "rollNo": "12345"
+        }
+        ```
+
+    - **Example Response**:
+        ```json
+        {
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
         }
         ```
 
